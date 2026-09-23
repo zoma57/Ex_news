@@ -1,0 +1,41 @@
+#Data .card {
+    height: 420px; 
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#Data .card-img-top {
+    height: 180px;
+    width: 100%;
+    object-fit: cover; 
+}
+
+#Data .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+#Data .card-title {
+    font-size: 18px;
+    font-weight: 500;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+#Data .card-text {
+    font-size: 15px;
+    color: #555;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+#Data .card-body .btn {
+    margin-top: auto; 
+    align-self: flex-start;
+}
+
+#Data ul li {
+    cursor: pointer;
+}
